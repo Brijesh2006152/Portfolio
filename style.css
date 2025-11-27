@@ -1,3 +1,4 @@
+/*Use Edge web browser so that we do not need to import noto sans font from google font*/ 
 :root{
     --base-font: Noto Sans;
 }
@@ -21,12 +22,9 @@ header{
 
 .left-header ul{
     display: flex;
-    
 }
 
 .left-header ul li a{
-    /* margin: 0 10px; */
-    /* padding: 5px 10px; */
     cursor: pointer;
     text-decoration: none;
     color: white;
@@ -69,7 +67,6 @@ header{
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-
 }
 
 .education-label div{
@@ -81,14 +78,14 @@ header{
 }
 
 .skill-set, .project-name{
-    /* border: 2px solid red; */
+    color: black;
+    display: block;
     background-color: #c56767;
     padding: 10px 20px;
     margin: 10px;
     border-radius: 10px;
 }
 .skill-child{
-    /* background-color: rgb(248, 88, 248); */
     border: 2px solid #c56767;
     padding: 10px 20px;
     margin: 10px;
@@ -108,9 +105,6 @@ header{
     padding: 10px;
 }
 /* container style ends */
-
-
-
 
 /* styling footer */
 footer{
@@ -136,3 +130,4 @@ footer:hover{
     animation: view-footer 1s ease-in-out 0ms 1 ;
     background-color: #6b82a7;
 }
+
