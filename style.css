@@ -1,0 +1,138 @@
+:root{
+    --base-font: Noto Sans;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: var(--base-font);
+}
+
+/* header styling begins */
+header{
+    background-color: #6b82a7;
+    color: white;
+    font-family: var(--base-font);
+    padding: 0px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.left-header ul{
+    display: flex;
+    
+}
+
+.left-header ul li a{
+    /* margin: 0 10px; */
+    /* padding: 5px 10px; */
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+}   
+.left-header-list{
+    list-style: none;
+    padding: 10px 20px;
+    margin: 5px 10px;
+}
+/* header styling ends */
+
+/* container styling begins */
+.container-child{
+    margin: 10px;
+    padding: 10px;
+    background-color: #f3dfdf;
+    border-radius: 20px;
+}
+.personal-details{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #f3dfdf;
+    padding: 20px;
+}
+
+.full-name{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.container-child h2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px auto;
+}
+
+.education-label{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+.education-label div{
+    margin: 10px;
+    padding: 10px;
+    border: 2px solid #c56767;
+    height: 100px;
+    border-radius: 20px;
+}
+
+.skill-set, .project-name{
+    /* border: 2px solid red; */
+    background-color: #c56767;
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 10px;
+}
+.skill-child{
+    /* background-color: rgb(248, 88, 248); */
+    border: 2px solid #c56767;
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+.project-intro{
+    /* padding: 10px; */
+    margin: 10px;
+    border: 2px solid #c56767;
+    border-radius: 10px;
+}
+
+.prj-description{
+    margin: 0px 10px;
+    padding: 10px;
+}
+/* container style ends */
+
+
+
+
+/* styling footer */
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    background-color: white;
+    color: white;
+    user-select: none;
+}
+
+@keyframes view-footer {
+    from{
+        background-color: white;
+    }
+    to{
+        background-color: #6b82a7;
+    }
+}
+
+footer:hover{
+    animation: view-footer 1s ease-in-out 0ms 1 ;
+    background-color: #6b82a7;
+}
